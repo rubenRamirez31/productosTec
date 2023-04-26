@@ -18665,6 +18665,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ruben\\Desktop\\EjercicioEFC\\Views\\Productos\\ActualizarProducto.cshtml",
+      "TargetPath": "Views\\Productos\\ActualizarProducto.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ruben\\Desktop\\EjercicioEFC\\Views\\Productos\\EliminarProducto.cshtml",
       "TargetPath": "Views\\Productos\\EliminarProducto.cshtml",
       "FileKind": "mvc"
@@ -18692,11 +18697,6 @@
     {
       "FilePath": "c:\\Users\\ruben\\Desktop\\EjercicioEFC\\Views\\Productos\\AgregarProducto.cshtml",
       "TargetPath": "Views\\Productos\\AgregarProducto.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ruben\\Desktop\\EjercicioEFC\\Views\\Productos\\Actualizar.cshtml",
-      "TargetPath": "Views\\Productos\\Actualizar.cshtml",
       "FileKind": "mvc"
     },
     {

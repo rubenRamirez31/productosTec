@@ -4,7 +4,7 @@
 <div class="container">
 
     <p>
-        <a asp-action="AgregarProducto" class="btn btn-success">Agregar</a>
+        <a asp-action="AgregarProducto" class="btn btn-success">Agregar Producto</a>
     </p>
 
     <table class="table table-hover">
@@ -20,7 +20,7 @@
                     <td class="text text-center">@item.NombreProducto</td>
                     <td class="text text-center">@item.IdCategoriaNavigation.NombreCategoria</td>
                     <td class="text text-center">
-                        <a class="btn btn-warning">Actualizar</a>
+                        <a asp-route-id="@item.Id" asp-action="ActualizarProducto" class="btn btn-warning">Actualizar</a>
                         <a asp-route-id="@item.Id" asp-action="EliminarProducto" class="btn btn-danger">Eliminar</a>
                     </td>
 

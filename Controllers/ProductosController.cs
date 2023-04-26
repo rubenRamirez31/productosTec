@@ -42,6 +42,26 @@ namespace EjercicioEFC.Controllers
         }
 
         [HttpGet]
+        public IActionResult ActualizarProducto(sbyte? id)
+        {
+            if (id == null)
+                return NotFound();
+            Producto p = db.Productos.Find(id);
+            ViewBag.IdCategoria = new SelectList(db.Categorias,"Id","NombreCategoria");
+            if (p == null)
+                return NotFound();
+            return View(p);
+        }
+
+        [HttpPost]
+        public IActionResult Actualizar (Producto p){
+            db.Entry(p).State = EntityState.Modified;
+            db.SaveChanges();
+            return RedirectToAction("Principal");
+        }
+
+
+        [HttpGet]
         public IActionResult EliminarProducto (SByte? id){
             if (id == null)
             {
