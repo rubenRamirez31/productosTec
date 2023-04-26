@@ -54,7 +54,7 @@ namespace EjercicioEFC.Controllers
         }
 
         [HttpPost]
-        public IActionResult Actualizar (Producto p){
+        public IActionResult ActualizarProducto (Producto p){
             db.Entry(p).State = EntityState.Modified;
             db.SaveChanges();
             return RedirectToAction("Principal");
