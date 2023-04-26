@@ -1,0 +1,35 @@
+@model EjercicioEFC.Models.Persona
+
+<div class="container">
+    <form asp-action="agregar" method="post">
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="Nombre"></label>
+                <input type="text" asp-for="Nombre" class="form-control"> <span asp-validation-for="Nombre"
+                    class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="Edad"></label>
+                <input type="number" asp-for="Edad" class="form-control"> <span asp-validation-for="Edad"
+                    class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="Ocupacion"></label>
+                <input type="text" asp-for="Ocupacion" class="form-control"> <span asp-validation-for="Ocupacion"
+                    class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5 my-2 d-flex justify-content-sm-end">
+                <a asp-action="Principal" class="btn btn-dark mx-3">Regresar</a>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </form>
+</div>
+

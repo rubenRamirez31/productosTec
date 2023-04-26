@@ -1,0 +1,30 @@
+@model EjercicioEFC.Models.Producto
+
+<div class="container">
+    <form asp-action="AgregarProducto" method="post">
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="NombreProducto">Nombre del producto</label>
+                <input type="text" asp-for="NombreProducto" class="form-control">
+                <span asp-validation-for="NombreProducto" class="text-danger"> </span>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="IdCategoria">Categoria</label>
+                <select class="form-select" asp-for="IdCategoria" asp-items="@ViewBag.IdCategoria">
+                    <option value="" selected disabled>Seleccionar</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row my-2">
+            <div class="col-md-5">
+                <button type="submit" class="btn btn-primary">Agregar Producto</button>
+            </div>
+        </div>
+
+    </form>
+</div>

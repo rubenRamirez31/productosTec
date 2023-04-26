@@ -1,0 +1,17 @@
+@model EjercicioEFC.Models.Producto
+
+<div class="container">
+    <form asp-action="ProductoEliminado" method="POST">
+        <input type="hidden" name="Id" value="@Model.Id">
+        <div class="text-center">
+            <h2 class="text-danger">¿Esta seguro que desea eliminar a: @Model.NombreProducto</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5 my-2 d-flex justify-content-sm-end">
+                <a asp-action="Principal" class="btn btn-dark mx-3">Regresar</a>
+                <button type="submit" class="btn btn-warning">Eliminar</button>
+            </div>
+        </div>
+    </form>
+</div>

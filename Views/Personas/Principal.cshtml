@@ -1,0 +1,34 @@
+@model IEnumerable<EjercicioEFC.Models.Persona>
+
+<p>
+    <a asp-action="Agregar" class="btn btn-success">Agregar Persona</a>
+</p>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ocupacion</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.Edad</td>
+                    <td>@item.Ocupacion</td>
+                    <td>
+                        <a asp-route-id="@item.Id" asp-action="Actualizar" class="btn btn-warning">Actualizar</a>
+                        <a asp-route-id="@item.Id" asp-action="Eliminar" class="btn btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
