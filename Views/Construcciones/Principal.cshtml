@@ -1,0 +1,36 @@
+@model IEnumerable<EjercicioEFC.Models.Construccione>
+
+<p>
+    <a asp-action="AgregarConstruccion" class="btn btn-success">Agregar Construccion</a>
+</p>
+
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Fecha De inicio</th>
+                <th>Imagen</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Construccion</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.FechaInicio</td>
+                    <td>@item.Imagen</td>
+                    <td>
+                        <a  class="btn btn-warning">Actualizar</a>
+                        <a  class="btn btn-danger">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

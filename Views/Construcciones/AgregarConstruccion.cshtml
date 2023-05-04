@@ -1,0 +1,36 @@
+@model EjercicioEFC.Models.Construccione
+
+<div class="container">
+    <form asp-action="AgregarConstruccion" method="post">
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="Construccion"></label>
+                <input type="text" asp-for="Construccion" class="form-control"> <span asp-validation-for="Construccion"
+                    class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="Descripcion"></label>
+                <input type="text" asp-for="Descripcion" class="form-control"> 
+                <span asp-validation-for="Descripcion"
+                    class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <label asp-for="FechaInicio"></label>
+                <input type="date" asp-for="FechaInicio" class="form-control"> <span asp-validation-for="FechaInicio"
+                    class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-5 my-2 d-flex justify-content-sm-end">
+                <a asp-action="Principal" class="btn btn-dark mx-3">Regresar</a>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </div>
+    </form>
+</div>
+

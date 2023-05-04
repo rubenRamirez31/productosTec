@@ -9,73 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EjercicioEFC
 build_property.RootNamespace = EjercicioEFC
-build_property.ProjectDir = C:\Users\ruben\Desktop\EjercicioEFC\
+build_property.ProjectDir = C:\Users\Aula\Desktop\productosTec\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ruben\Desktop\EjercicioEFC
+build_property.MSBuildProjectDirectory = C:\Users\Aula\Desktop\productosTec
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Home/Index.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Construcciones/AgregarConstruccion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3RydWNjaW9uZXNcQWdyZWdhckNvbnN0cnVjY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aula/Desktop/productosTec/Views/Construcciones/Principal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3RydWNjaW9uZXNcUHJpbmNpcGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aula/Desktop/productosTec/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Home/Privacy.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Personas/Actualizar.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Personas/Actualizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcQWN0dWFsaXphci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Personas/Agregar.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Personas/Agregar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcQWdyZWdhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Personas/Eliminar.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Personas/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcRWxpbWluYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Personas/Principal.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Personas/Principal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcUHJpbmNpcGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Personas/Pruebas.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Personas/Pruebas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYXNcUHJ1ZWJhcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Productos/ActualizarProducto.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Productos/ActualizarProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEFjdHVhbGl6YXJQcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Productos/AgregarProducto.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Productos/AgregarProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEFncmVnYXJQcm9kdWN0by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Productos/EliminarProducto.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Productos/EliminarProducto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVsaW1pbmFyUHJvZHVjdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Productos/Principal.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Productos/Principal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXFByaW5jaXBhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Shared/Error.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/_ViewImports.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/_ViewStart.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ruben/Desktop/EjercicioEFC/Views/Shared/_Layout.cshtml]
+[C:/Users/Aula/Desktop/productosTec/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-72p7my2gno

@@ -9,6 +9,11 @@ builder.Services.AddDbContext<BdpersonasContext>(
     opciones =>
     opciones.UseMySQL("Server=database-2.cieq3dfbzdfd.us-east-2.rds.amazonaws.com; Port=3306; Database=BDPersonas; Uid=admin; Pwd=BT8OuIqJh6BF4Z8AsquH")
 );
+
+builder.Services.AddDbContext<ConstruccionesContext>(
+    opciones =>
+    opciones.UseMySQL("Server=database-2.cieq3dfbzdfd.us-east-2.rds.amazonaws.com; Port=3306; Database=BDPersonas; Uid=admin; Pwd=BT8OuIqJh6BF4Z8AsquH")
+);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
